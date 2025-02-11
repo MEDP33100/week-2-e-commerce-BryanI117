@@ -21,11 +21,11 @@
 }
 
 .product:hover img {
-    transform: scale(1.05); /* Slightly scale the image on hover */
+    transform: scale(1.05); 
 }
 
 
-.product .overlay { /* Style for the overlay */
+.product .overlay { 
     position: absolute;
     top: 0;
     left: 0;
@@ -37,12 +37,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    opacity: 0; /* Initially hidden */
+    opacity: 0; 
     transition: opacity 0.3s;
 }
 
 .product:hover .overlay {
-    opacity: 1; /* Show overlay on hover */
+    opacity: 1; 
 }
 
 .product .overlay button {  
@@ -62,13 +62,13 @@
 /* Basic Styling */
 body {
     font-family: sans-serif;
-    margin: 0; /* Remove default margins */
+    margin: 0; 
     padding: 0;
     background-color: #F2F2F2;
 }
 
 header {
-    background-color: #94aee0; /* Example header color */
+    background-color: #94aee0; 
     padding: 20px;
     text-align: center;
 }
@@ -83,7 +83,7 @@ header {
   border: 1px solid #ccc;
   padding: 10px;
   margin: 10px;
-  width: 200px; /* Adjust as needed */
+  width: 200px; 
 }
 
 .product button {
@@ -107,14 +107,13 @@ header {
 
 
 
-/* Optional: Responsive adjustments */
 @media (max-width: 768px) {
   .product-list {
-        width: 95%; /* Adjust width on smaller screens */
-        flex-direction: column; /* Stack products vertically */
+        width: 95%; 
+        flex-direction: column; 
     }
   .product {
-        width: 100%; /* Make products full width */
+        width: 100%; 
     }
 }
 
@@ -123,24 +122,23 @@ nav {
     padding: 10px; 
     text-align: center; 
     width: 100%; 
-    max-width: 1200px; /* Optional: Set a maximum width */
+    max-width: 1200px; 
     margin: 0 auto; 
     border-bottom: 1px solid #ddd; 
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
 }
 
-/* style.css */
 
 nav ul {
     list-style: none;
     padding: 0;
     margin: 0;
-    text-align: center; /* Center the navigation items */
+    text-align: center; 
 }
 
 nav li {
     display: inline;
-    margin: 0 10px; /* Adjust spacing between items */
+    margin: 0 10px; 
 }
 
 nav a { 
@@ -154,17 +152,17 @@ nav a {
     transition: background-color 0.3s, color 0.3s; 
 }
 
-nav a:hover { /* Style the links on hover */
-    background-color: #ddd; /* Slightly darker background on hover */
-    color: #007bff; /* Blue text color on hover (example) */
-    border-color: #007bff; /* Blue border on hover */
+nav a:hover { 
+    background-color: #ddd; 
+    color: #007bff; 
+    border-color: #007bff; 
 }
 
 nav a.active, 
 nav a:active { 
     background-color: #007bff; 
     color: #fff; 
-    border-color: #007bff; /* Blue border on active/click */
+    border-color: #007bff; 
 }
 
 
@@ -175,10 +173,10 @@ nav a:active {
     }
     nav li {
         display: block; 
-        margin: 5px 0; /* Add vertical margins */
+        margin: 5px 0; 
     }
     nav a {
-        display: block; /* Make links full width */
+        display: block; 
         padding: 10px;
     }
 }
